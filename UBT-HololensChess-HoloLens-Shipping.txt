@@ -1,0 +1,343 @@
+AndroidPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.AndroidPlatformSDK has no valid SDK
+HoloLensPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.HoloLensPlatformSDK using manually installed SDK
+LinuxPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.LinuxPlatformSDK has no valid SDK
+WindowsPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.WindowsPlatformSDK using manually installed SDK
+BuildMode.Execute: Command line: "C:\UnrealEngine\UE_4.26\Engine\Binaries\DotNET\UnrealBuildTool.exe" HololensChess HoloLens Shipping -Project="C:\Users\Usr\Desktop\Hololens Testing\HololensChess\HololensChess.uproject"  "C:\Users\Usr\Desktop\Hololens Testing\HololensChess\HololensChess.uproject" -NoUBTMakefiles  -remoteini="C:\Users\Usr\Desktop\Hololens Testing\HololensChess" -Architecture=x64 -Manifest="C:\Users\Usr\Desktop\Hololens Testing\HololensChess\Intermediate\Build\Manifest.xml" -NoHotReload -log="C:\Users\Usr\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+UnrealEngine+UE_4.26\UBT-HololensChess-HoloLens-Shipping.txt"
+HoloLens.ValidateTarget: Using x64 architecture for deploying to HoloLens device
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 8.1 SDK at C:\Program Files (x86)\Windows Kits\8.1
+WindowsPlatform.EnumerateSdkRootDirs: Found Windows 10 SDK root at C:\Program Files\Windows Kits\10 (1)
+WindowsPlatform.EnumerateSdkRootDirs: Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.10150.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.10240.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 10 SDK version 10.0.14393.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.14393.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 10 SDK version 10.0.17763.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.17763.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 10 SDK version 10.0.18362.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.18362.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 10 SDK version 10.0.19041.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.19041.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.FindVisualStudioInstallations: Found Visual Studio installation: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community (Product=Microsoft.VisualStudio.Product.Community, Version=16.9.31025.194)
+WindowsPlatform.FindVisualStudioToolChains: Found Visual Studio toolchain: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910 (Version=14.28.29910)
+HoloLens.ValidateTarget: Building using Windows SDK version 10.0.18362.0 for HoloLens
+UEBuildTarget.AddPlugin: Ignoring plugin 'HoloLensAR' (referenced via HololensChess.uproject) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Enabling plugin 'WindowsMixedReality' (referenced via HololensChess.uproject)
+UEBuildTarget.AddPlugin: Enabling plugin 'ProceduralMeshComponent' (referenced via HololensChess.uproject -> WindowsMixedReality.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'LiveLink' (referenced via HololensChess.uproject -> WindowsMixedReality.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'Takes' (referenced via HololensChess.uproject -> WindowsMixedReality.uplugin -> LiveLink.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'LevelSequenceEditor' (referenced via HololensChess.uproject -> WindowsMixedReality.uplugin -> LiveLink.uplugin -> Takes.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'UXTools' (referenced via HololensChess.uproject)
+UEBuildTarget.AddPlugin: Enabling plugin 'Paper2D' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AISupport' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'EnvironmentQueryEditor' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'LightPropagationVolume' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'CameraShakePreviewer' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AnimationSharing' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'SignificanceManager' (referenced via default plugins -> AnimationSharing.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'CLionSourceCodeAccess' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'CodeLiteSourceCodeAccess' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'GitSourceControl' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'KDevelopSourceCodeAccess' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'NullSourceCodeAccess' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'PerforceSourceControl' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'PlasticSourceControl' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'PluginUtils' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'PropertyAccessNode' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'PropertyAccessEditor' (referenced via default plugins -> PropertyAccessNode.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'RiderSourceCodeAccess' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'SubversionSourceControl' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'UObjectPlugin' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'VisualStudioCodeSourceCodeAccess' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'VisualStudioSourceCodeAccess' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'XCodeSourceCodeAccess' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AssetManagerEditor' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ContentBrowserAssetDataSource' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ContentBrowserClassDataSource' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'CryptoKeys' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'CurveEditorTools' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'DataValidation' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'FacialAnimation' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'GameplayTagsEditor' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'GeometryMode' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MacGraphicsSwitching' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MaterialAnalyzer' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MobileLauncherProfileWizard' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'PluginBrowser' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'SpeedTreeImporter' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'DatasmithContent' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'VariantManagerContent' (referenced via default plugins -> DatasmithContent.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'AlembicImporter' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'GeometryCache' (referenced via default plugins -> AlembicImporter.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'AutomationUtils' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ScreenshotTools' (referenced via default plugins -> AutomationUtils.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'BackChannel' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ChaosClothEditor' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ChaosCloth' (referenced via default plugins -> ChaosClothEditor.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'ChaosEditor' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'PlanarCut' (referenced via default plugins -> ChaosEditor.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'GeometryProcessing' (referenced via default plugins -> ChaosEditor.uplugin -> PlanarCut.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'EditableMesh' (referenced via default plugins -> ChaosEditor.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'GeometryCollectionPlugin' (referenced via default plugins -> ChaosEditor.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'ChaosSolverPlugin' (referenced via default plugins -> ChaosEditor.uplugin -> GeometryCollectionPlugin.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'ChaosNiagara' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'Niagara' (referenced via default plugins -> ChaosNiagara.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'CharacterAI' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MotoSynth' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'PlatformCrypto' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ProxyLODPlugin' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'SkeletalReduction' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Ignoring plugin 'LuminPlatformFeatures' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MagicLeapMedia' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MagicLeapPassableWorld' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MagicLeap' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Enabling plugin 'MLSDK' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AndroidMedia' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AvfMedia' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ImgMedia' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MediaCompositing' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MediaPlayerEditor' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'WmfMedia' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MeshPainting' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'TcpMessaging' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'UdpMessaging' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ActorSequence' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MatineeToLevelSequence' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'TemplateSequence' (referenced via default plugins -> MatineeToLevelSequence.uplugin)
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemGooglePlay' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemIOS' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Enabling plugin 'OnlineSubsystemNull' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'OnlineSubsystem' (referenced via default plugins -> OnlineSubsystemNull.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'OnlineSubsystemUtils' (referenced via default plugins -> OnlineSubsystemNull.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'LauncherChunkInstaller' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ActorLayerUtilities' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AndroidDeviceProfileSelector' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AndroidMoviePlayer' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AndroidPermission' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AppleImageUtils' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AppleMoviePlayer' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ArchVisCharacter' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AssetTags' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AudioCapture' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'CableComponent' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ChunkDownloader' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'CustomMeshComponent' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ExampleDeviceProfileSelector' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'GoogleCloudMessaging' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'GooglePAD' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'IOSDeviceProfileSelector' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'LinuxDeviceProfileSelector' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'LocationServicesBPLibrary' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MobilePatchingUtils' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Ignoring plugin 'OculusVR' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Enabling plugin 'PhysXVehicles' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Ignoring plugin 'PostSplashScreen' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Enabling plugin 'RuntimePhysXCooking' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'SoundFields' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Ignoring plugin 'SteamVR' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Enabling plugin 'Synthesis' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AudioSynesthesia' (referenced via default plugins -> Synthesis.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'WebMMoviePlayer' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'WebMMedia' (referenced via default plugins -> WebMMoviePlayer.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'WindowsMoviePlayer' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'XGEController' (referenced via default plugins)
+UEBuildTarget.GenerateManifest: Writing manifest to C:\Users\Usr\Desktop\Hololens Testing\HololensChess\Intermediate\Build\Manifest.xml
+HotReload.IsLiveCodingSessionActive: Checking for live coding mutex: Global\LiveCoding_C++Users+Usr+Desktop+Hololens Testing+HololensChess+Binaries+HoloLens+HololensChess-HoloLens-Shippingx64.exe
+ActionGraph.IsActionOutdated: HololensChess-HoloLens-Shippingx64.exe: Produced item "HololensChess-HoloLens-Shippingx64.exe" doesn't exist.
+ActionGraph.IsActionOutdated: HololensChess-HoloLens-Shippingx64.exe: Produced item "HololensChess-HoloLens-Shippingx64.pdb" doesn't exist.
+ActionGraph.IsActionOutdated: SharedPCH.Engine.ShadowErrors.NoUndef.cpp: Produced item "SharedPCH.Engine.ShadowErrors.NoUndef.h.obj" doesn't exist.
+ActionGraph.IsActionOutdated: SharedPCH.Engine.ShadowErrors.NoUndef.cpp: Produced item "SharedPCH.Engine.ShadowErrors.NoUndef.h.obj" doesn't exist.
+ActionGraph.IsActionOutdated: SharedPCH.Engine.ShadowErrors.cpp: Produced item "SharedPCH.Engine.ShadowErrors.h.obj" doesn't exist.
+ActionGraph.IsActionOutdated: SharedPCH.Engine.ShadowErrors.cpp: Produced item "SharedPCH.Engine.ShadowErrors.h.txt" doesn't exist.
+ActionGraph.IsActionOutdated: SharedPCH.Engine.ShadowErrors.NoUndef.cpp: Produced item "SharedPCH.Engine.ShadowErrors.NoUndef.h.obj" doesn't exist.
+ActionGraph.IsActionOutdated: SharedPCH.Engine.ShadowErrors.cpp: Produced item "SharedPCH.Engine.ShadowErrors.h.obj" doesn't exist.
+ActionGraph.IsActionOutdated: SharedPCH.Engine.ShadowErrors.cpp: Produced item "SharedPCH.Engine.ShadowErrors.h.txt" doesn't exist.
+ActionGraph.IsActionOutdated: SharedPCH.Engine.ShadowErrors.NoUndef.cpp: Produced item "SharedPCH.Engine.ShadowErrors.NoUndef.h.txt" doesn't exist.
+ActionGraph.IsActionOutdated: SharedPCH.Engine.ShadowErrors.NoUndef.cpp: Produced item "SharedPCH.Engine.ShadowErrors.NoUndef.h.obj" doesn't exist.
+ActionGraph.IsActionOutdated: SharedPCH.Engine.ShadowErrors.NoUndef.cpp: Produced item "SharedPCH.Engine.ShadowErrors.NoUndef.h.txt" doesn't exist.
+ActionGraph.IsActionOutdated: Module.UXToolsRuntimeSettings.gen.cpp: Prerequisite SharedPCH.Engine.ShadowErrors.cpp is produced by outdated action.
+ActionGraph.IsActionOutdated: HololensChess.cpp: Produced item "HololensChess.cpp.obj" doesn't exist.
+ActionGraph.IsActionOutdated: SharedPCH.Engine.ShadowErrors.NoUndef.cpp: Produced item "SharedPCH.Engine.ShadowErrors.NoUndef.h.txt" doesn't exist.
+ActionGraph.IsActionOutdated: Module.UXTools.gen.5_of_7.cpp: Prerequisite SharedPCH.Engine.ShadowErrors.NoUndef.cpp is produced by outdated action.
+ActionGraph.IsActionOutdated: HololensChessGameModeBase.cpp: Produced item "HololensChessGameModeBase.cpp.obj" doesn't exist.
+ActionGraph.IsActionOutdated: HololensChessGameModeBase.cpp: Produced item "HololensChessGameModeBase.cpp.txt" doesn't exist.
+ActionGraph.IsActionOutdated: Module.UXTools.gen.2_of_7.cpp: Prerequisite SharedPCH.Engine.ShadowErrors.NoUndef.cpp is produced by outdated action.
+ActionGraph.IsActionOutdated: Module.UXTools.gen.7_of_7.cpp: Prerequisite SharedPCH.Engine.ShadowErrors.NoUndef.cpp is produced by outdated action.
+ActionGraph.IsActionOutdated: HololensChessGameModeBase.gen.cpp: Produced item "HololensChessGameModeBase.gen.cpp.obj" doesn't exist.
+ActionGraph.IsActionOutdated: HololensChess-HoloLens-Shippingx64.target: Produced item "HololensChess-HoloLens-Shippingx64.target" doesn't exist.
+ActionGraph.IsActionOutdated: HololensChessGameModeBase.gen.cpp: Produced item "HololensChessGameModeBase.gen.cpp.txt" doesn't exist.
+ActionGraph.IsActionOutdated: HololensChess.cpp: Produced item "HololensChess.cpp.txt" doesn't exist.
+ActionGraph.IsActionOutdated: Module.UXToolsRuntimeSettings.cpp: Prerequisite SharedPCH.Engine.ShadowErrors.cpp is produced by outdated action.
+ActionGraph.IsActionOutdated: SharedPCH.Engine.ShadowErrors.NoUndef.cpp: Produced item "SharedPCH.Engine.ShadowErrors.NoUndef.h.txt" doesn't exist.
+ActionGraph.IsActionOutdated: Module.UXTools.gen.1_of_7.cpp: Prerequisite SharedPCH.Engine.ShadowErrors.NoUndef.cpp is produced by outdated action.
+ActionGraph.IsActionOutdated: Module.UXTools.gen.6_of_7.cpp: Prerequisite SharedPCH.Engine.ShadowErrors.NoUndef.cpp is produced by outdated action.
+ActionGraph.IsActionOutdated: Module.UXTools.gen.4_of_7.cpp: Prerequisite SharedPCH.Engine.ShadowErrors.NoUndef.cpp is produced by outdated action.
+ActionGraph.IsActionOutdated: Module.UXTools.gen.3_of_7.cpp: Prerequisite SharedPCH.Engine.ShadowErrors.NoUndef.cpp is produced by outdated action.
+ActionGraph.IsActionOutdated: SharedPCH.Engine.ShadowErrors.cpp: Produced item "SharedPCH.Engine.ShadowErrors.h.obj" doesn't exist.
+ActionGraph.IsActionOutdated: SharedPCH.Engine.ShadowErrors.cpp: Produced item "SharedPCH.Engine.ShadowErrors.h.txt" doesn't exist.
+ActionGraph.IsActionOutdated: Module.UXToolsWMR.cpp: Prerequisite SharedPCH.Engine.ShadowErrors.cpp is produced by outdated action.
+ActionGraph.IsActionOutdated: Module.UXTools.cpp: Prerequisite SharedPCH.Engine.ShadowErrors.NoUndef.cpp is produced by outdated action.
+ActionGraph.IsActionOutdated: HololensChess.init.gen.cpp: Produced item "HololensChess.init.gen.cpp.obj" doesn't exist.
+ActionGraph.IsActionOutdated: HololensChess.init.gen.cpp: Produced item "HololensChess.init.gen.cpp.txt" doesn't exist.
+BuildMode.Build: Building HololensChess...
+ParallelExecutor.ExecuteActions: Building 19 actions with 12 processes...
+ParallelExecutor.ExecuteActions:   [1/19] SharedPCH.Engine.ShadowErrors.NoUndef.cpp
+ParallelExecutor.ExecuteActions:   [2/19] SharedPCH.Engine.ShadowErrors.cpp
+ParallelExecutor.ExecuteActions:   [3/19] HololensChess.cpp
+ParallelExecutor.ExecuteActions:   [4/19] HololensChess.init.gen.cpp
+ParallelExecutor.ExecuteActions:   [5/19] Module.UXTools.gen.7_of_7.cpp
+ParallelExecutor.ExecuteActions:   [6/19] Module.UXTools.gen.2_of_7.cpp
+ParallelExecutor.ExecuteActions:   [7/19] Module.UXTools.gen.5_of_7.cpp
+ParallelExecutor.ExecuteActions:   [8/19] Module.UXTools.gen.4_of_7.cpp
+ParallelExecutor.ExecuteActions:   [9/19] Module.UXToolsWMR.cpp
+ParallelExecutor.ExecuteActions:   [10/19] HololensChessGameModeBase.cpp
+ParallelExecutor.ExecuteActions:   [11/19] Module.UXTools.gen.3_of_7.cpp
+ParallelExecutor.ExecuteActions:   [12/19] Module.UXToolsRuntimeSettings.cpp
+ParallelExecutor.ExecuteActions:   [13/19] Module.UXTools.gen.1_of_7.cpp
+ParallelExecutor.ExecuteActions:   [14/19] Module.UXToolsRuntimeSettings.gen.cpp
+ParallelExecutor.ExecuteActions:   [15/19] HololensChessGameModeBase.gen.cpp
+ParallelExecutor.ExecuteActions:   [16/19] Module.UXTools.gen.6_of_7.cpp
+ParallelExecutor.ExecuteActions:   [17/19] Module.UXTools.cpp
+ParallelExecutor.ExecuteActions:   [18/19] HololensChess-HoloLens-Shippingx64.exe
+ParallelExecutor.ExecuteActions:      Creating library C:\Users\Usr\Desktop\Hololens Testing\HololensChess\Binaries\HoloLens\HololensChess-HoloLens-Shippingx64.lib and object C:\Users\Usr\Desktop\Hololens Testing\HololensChess\Binaries\HoloLens\HololensChess-HoloLens-Shippingx64.exp
+ParallelExecutor.ExecuteActions:   [19/19] HololensChess-HoloLens-Shippingx64.target
+ActionGraph.ExecuteActions: Total time in Parallel executor: 100.09 seconds
+BuildMode.Build: Deploying HololensChess HoloLens Shipping...
+HoloLensDeploy.PrepTargetForDeployment: Prepping HololensChess for deployment to HoloLens
+Utils.LocalProcessOutput: W r i t i n g   P R I   c o n f i g   f i l e   t o   C : \ U s e r s \ m h a r p \ D e s k t o p \ H o l o l e n s   T e s t i n g \ H o l o l e n s C h e s s \ I n t e r m e d i a t e \ D e p l o y \ x 6 4 \ p r i c o n f i g . x m l   . . . 
+Utils.LocalProcessOutput:  
+Utils.LocalProcessOutput:  S u c c e s s f u l l y   C o m p l e t e d 
+Utils.LocalProcessOutput:  
+Utils.LocalProcessOutput:  
+Utils.LocalProcessOutput: Microsoft (R) MakePRI Tool
+Utils.LocalProcessOutput: Copyright (C) 2013 Microsoft. All rights reserved.
+Utils.LocalProcessOutput: 
+Utils.LocalProcessOutput: 
+Utils.LocalProcessOutput: Usage:
+Utils.LocalProcessOutput: 
+Utils.LocalProcessOutput: ------
+Utils.LocalProcessOutput:     MakePri.exe new /pr <project root> /cf <config file> [options]
+Utils.LocalProcessOutput: 
+Utils.LocalProcessOutput: Example:
+Utils.LocalProcessOutput: 
+Utils.LocalProcessOutput: --------
+Utils.LocalProcessOutput:     MakePri.exe new /pr C:\MyApp\src\ /cf C:\MyApp\priconfig.xml /mn
+Utils.LocalProcessOutput:     C:\MyApp\AppXManifest.xml /of C:\MyApp\src\resources.pri /o
+Utils.LocalProcessOutput: 
+Utils.LocalProcessOutput: Description:
+Utils.LocalProcessOutput: 
+Utils.LocalProcessOutput: ------------
+Utils.LocalProcessOutput:     Creates a PRI file at [outputfile] by indexing all files in the
+Utils.LocalProcessOutput:     [projectroot]and its subdirectories as directed by the [configxml]. The
+Utils.LocalProcessOutput:     index will be assigned [indexname] to reference resources in the application
+Utils.LocalProcessOutput: 
+Utils.LocalProcessOutput: Required Parameters:
+Utils.LocalProcessOutput: 
+Utils.LocalProcessOutput: --------------------
+Utils.LocalProcessOutput:     /ProjectRoot(pr)  : <FOLDERPATH> Root location of project files
+Utils.LocalProcessOutput:     /ConfigXml(cf)    : <FILEPATH> Configuration file location. Use
+Utils.LocalProcessOutput:                         'Makepri.exe createconfig' command to generate one
+Utils.LocalProcessOutput: 
+Utils.LocalProcessOutput: Options:
+Utils.LocalProcessOutput: 
+Utils.LocalProcessOutput: --------
+Utils.LocalProcessOutput:     /OutputFile(of)   : <FILEPATH> Output location of PRI file, default is
+Utils.LocalProcessOutput:                         [current directory]\resources.pri
+Utils.LocalProcessOutput:     /Manifest(mn)     : <FILEPATH> Location of the application or component's
+Utils.LocalProcessOutput:                         manifest. This parameter is ignored if [indexname]
+Utils.LocalProcessOutput:                         is given. Default is [projectroot]\AppXManifest.xml
+Utils.LocalProcessOutput:     /IndexName(in)    : <STRING> Name for the generated index of resources.
+Utils.LocalProcessOutput:                         Typically matches the AppX package name, class library
+Utils.LocalProcessOutput:                         simple name, etc. May be supplied via the
+Utils.LocalProcessOutput:                         [manifest] parameter.
+Utils.LocalProcessOutput:                         If IndexName is not specified and an AppX manifest
+Utils.LocalProcessOutput:                         file is not present, the default name 'Application'
+Utils.LocalProcessOutput:                         will be used.
+Utils.LocalProcessOutput:     /VersionMajor(vma): <INTEGER> [Deprecated] Major version number for
+Utils.LocalProcessOutput:                         index, default is 1
+Utils.LocalProcessOutput:     /IndexLog(il)     : <FILEPATH> XML Log of indexed resources, no file
+Utils.LocalProcessOutput:                         generated by default
+Utils.LocalProcessOutput:     /AutoMerge(am)    : This flag is not recommended for normal use with AppX
+Utils.LocalProcessOutput:                         packages. It causes Makepri.exe to set the auto
+Utils.LocalProcessOutput:                         merge flag within the PRI file. Default is not set.
+Utils.LocalProcessOutput:     /ReverseMap(rm)   : Generate a reverse mapping section in the PRI file
+Utils.LocalProcessOutput:                         which can be used for debugging purposes.
+Utils.LocalProcessOutput:     /MappingFile(mf)  : <MAPPINGFILETYPE> Generate a mapping file in the given
+Utils.LocalProcessOutput:                         file format.
+Utils.LocalProcessOutput:     /SchemaFile(sf)   : <FILEPATH> Output location of XML resource schema
+Utils.LocalProcessOutput:                         description.
+Utils.LocalProcessOutput:     /IndexOptions(io) : <OPTIONS> Options to provide detailed control over
+Utils.LocalProcessOutput:                         behavior of resource indexers.
+Utils.LocalProcessOutput:     /Overwrite(o)     : Overwrite an existing output file of the same name
+Utils.LocalProcessOutput:                         without prompting
+Utils.LocalProcessOutput:     /Verbose(v)       : Causes verbose messages to be output to the console
+Utils.LocalProcessOutput:     /Help(h, ?)       : Display the usage help text
+Utils.LocalProcessOutput:     /ExtensionDll(ex) : <FILEPATH> Location of the MRT environment extension
+Utils.LocalProcessOutput:                         DLL. This DLL must be signed by a Microsoft-issued
+Utils.LocalProcessOutput:                         certificate. Default is an empty path (no DLL
+Utils.LocalProcessOutput:                         will be used).
+Utils.LocalProcessOutput: 
+Utils.LocalProcessOutput: 
+Utils.LocalProcessOutput:     FOLDERPATH       - is a valid path to a folder
+Utils.LocalProcessOutput:     FILEPATH         - is a path to a file, either relative to the current
+Utils.LocalProcessOutput:                        directory or absolute
+Utils.LocalProcessOutput:     MAPPINGFILETYPE  - Supported File type(s): 'AppX'
+Utils.LocalProcessOutput: 
+Process.ErrorReadNotifyUser: ERROR: ERROR: PRI191: 0x8007007e - Appx manifest not found or is invalid. Please ensure well-formed manifest file is present. Or specify an index name with /in switch.
+UnrealBuildTool.Main: ERROR: Failed to generate Package Resource Index file.  See log for details.
+UnrealBuildTool.Main: BuildException: Failed to generate Package Resource Index file.  See log for details.
+UnrealBuildTool.Main:    at UnrealBuildTool.HoloLensManifestGenerator.CreateManifest(UnrealTargetPlatform TargetPlatform, WindowsArchitecture TargetArchitecture, String InOutputPath, String InIntermediatePath, FileReference InProjectFile, String InProjectDirectory, List`1 InTargetConfigs, List`1 InExecutables, IEnumerable`1 InWinMDReferences) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\Platform\HoloLens\ManifestGenerator.cs:line 733
+UnrealBuildTool.Main:    at UnrealBuildTool.HoloLensDeploy.PrepTargetForDeployment(TargetReceipt Receipt) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\Platform\HoloLens\HoloLensDeploy.cs:line 465
+UnrealBuildTool.Main:    at UnrealBuildTool.BuildMode.Build(TargetMakefile[] Makefiles, List`1 TargetDescriptors, BuildConfiguration BuildConfiguration, ISourceFileWorkingSet WorkingSet, BuildOptions Options, FileReference WriteOutdatedActionsFile) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\Modes\BuildMode.cs:line 495
+UnrealBuildTool.Main:    at UnrealBuildTool.BuildMode.Execute(CommandLineArguments Arguments) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\Modes\BuildMode.cs:line 226
+UnrealBuildTool.Main:    at UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.cs:line 550
+Timeline.Print: Timeline:
+Timeline.Print: 
+Timeline.Print: [ 0.000]
+Timeline.Print: [ 0.000](+0.054) <unknown>
+Timeline.Print: [ 0.054](+0.012) FileMetadataPrefetch.QueueEngineDirectory()
+Timeline.Print: [ 0.067](+0.391) XmlConfig.ReadConfigFiles()
+Timeline.Print: [ 0.458](+0.000) SingleInstanceMutex.Acquire()
+Timeline.Print: [ 0.458](+0.081) UEBuildPlatform.RegisterPlatforms()
+Timeline.Print:   0.459          [ 0.001](+0.037) Initializing InstalledPlatformInfo
+Timeline.Print:   0.497          [ 0.038](+0.000) Querying types
+Timeline.Print:   0.499          [ 0.040](+0.001) MacPlatformFactory
+Timeline.Print:   0.501          [ 0.042](+0.000) TVOSPlatformFactory
+Timeline.Print:   0.501          [ 0.042](+0.026) AndroidPlatformFactory
+Timeline.Print:   0.528          [ 0.069](+0.002) HoloLensPlatformFactory
+Timeline.Print:   0.530          [ 0.072](+0.000) IOSPlatformFactory
+Timeline.Print:   0.531          [ 0.072](+0.007) LinuxPlatformFactory
+Timeline.Print:   0.538          [ 0.079](+0.000) LuminPlatformFactory
+Timeline.Print:   0.539          [ 0.080](+0.000) WindowsPlatformFactory
+Timeline.Print: [ 0.548](+0.020) TargetDescriptor.ParseCommandLine()
+Timeline.Print: [ 0.579](+1.087) UEBuildTarget.Create()
+Timeline.Print:   0.583          [ 0.004](+0.272) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print:   0.583            0.004          [ 0.000](+0.119) <unknown>
+Timeline.Print:   0.703            0.123          [ 0.119](+0.029) Finding engine modules
+Timeline.Print:   0.732            0.153          [ 0.148](+0.006) Finding plugin modules
+Timeline.Print:   0.738            0.159          [ 0.155](+0.100) <unknown>
+Timeline.Print:   0.839            0.260          [ 0.256](+0.004) Finding program modules
+Timeline.Print:   0.844            0.265          [ 0.260](+0.002) Finding program targets
+Timeline.Print:   0.855          [ 0.276](+0.159) RulesAssembly.CreateTargetRules()
+Timeline.Print:   1.015          [ 0.436](+0.033) <unknown>
+Timeline.Print:   1.048          [ 0.469](+0.057) UEBuildTarget constructor
+Timeline.Print:   1.055            0.476          [ 0.006](+0.048) Reading source file metadata cache
+Timeline.Print:   1.106          [ 0.526](+0.561) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 1.675](+1.970) UEBuildTarget.Build()
+Timeline.Print:   1.675          [ 0.000](+0.123) <unknown>
+Timeline.Print:   1.799          [ 0.123](+0.818) ExternalExecution.SetupUObjectModules()
+Timeline.Print:   2.617          [ 0.942](+0.059) <unknown>
+Timeline.Print:   2.677          [ 1.001](+0.065) ExternalExecution.UpdateDirectoryTimestamps()
+Timeline.Print:   2.742          [ 1.067](+0.054) <unknown>
+Timeline.Print:   2.796          [ 1.121](+0.606) UEBuildBinary.Build()
+Timeline.Print:   3.402          [ 1.727](+0.243) <unknown>
+Timeline.Print: [ 3.646](+0.029) <unknown>
+Timeline.Print: [ 3.675](+0.011) ActionGraph.CheckPathLengths
+Timeline.Print: [ 3.686](+0.047) <unknown>
+Timeline.Print: [ 3.733](+0.002) Reading action history
+Timeline.Print: [ 3.736](+0.005) Reading dependency cache
+Timeline.Print: [ 3.745](+0.026) Prefetching include dependencies
+Timeline.Print: [ 3.771](+0.096) Cache outdated actions
+Timeline.Print: [ 3.880](+100.101) ActionGraph.ExecuteActions()
+Timeline.Print: [103.981](+0.969) <unknown>
+Timeline.Print: [104.950](+0.000) FileMetadataPrefetch.Stop()
+Timeline.Print: [104.954]
